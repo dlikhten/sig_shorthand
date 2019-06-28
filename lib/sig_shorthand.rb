@@ -211,7 +211,7 @@ module SigShorthand
 
   REGEX = Regexp.new(DEFINITIONS.map(&:first).map{|w| "(#{w})"}.join("|") + '|(\\w)', Regexp::IGNORECASE)
 
-  class SIG
+  class Vet
     def self.translate(str)
       result = []
       str.scan(REGEX) do |match|
