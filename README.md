@@ -19,6 +19,9 @@ gem 'sig_shorthand'
 
 SigShorthand::Vet.translate('WGW') => '*TAKE WITH A GLASS OF WATER*'
 
+- currently ignores whitespaces (between abbreviations)
+- currently is case-insensitive
+
 ## Development
 
 ```bash
