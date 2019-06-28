@@ -3,7 +3,11 @@
 This is a translator for the pharmaceutical SIG shorthand notation.
 
 Currently written with Veterinary needs in mind. But totes open for
-any use case. If the parsing needs to be a bit different
+any use case.
+
+TODO: Handle standard human SIG notation.
+
+TODO: Handle custom extensions.
 
 ## Installation
 
